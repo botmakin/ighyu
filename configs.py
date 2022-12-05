@@ -18,9 +18,19 @@ class Config(object):
 #    OWNER_USERNAME = os.getenv("OWNER_USERNAME")
     BACKUP_CHANNEL = os.getenv("BACKUP_CHANNEL")
 #    GROUP_USERNAME = os.getenv("GROUP_USERNAME")
-    START_MSG = os.getenv("START_MSG")
+    START_MSG = """
+<b>Hey! {}😅,
+I'm Doraemon Pocket.🤖</a>
+I Can Search 🔍 What You Want❗
+<a>Made With ❤ By @movies_halt</a></b>
+"""
     START_PHOTO = os.getenv("START_PHOTO")
-    HOME_TEXT = os.getenv("HOME_TEXT")
+    HOME_TEXT = """
+<b>Hey! {}😅,
+I'm Doraemon Pocket.🤖</a>
+I Can Search 🔍 What You Want❗
+<a>Made With ❤ By @movies_halt</a></b>
+"""
     UPDATES_CHANNEL = os.getenv("UPDATES_CHANNEL", None)
     DATABASE_URL = os.getenv("DATABASE_URL", "")
     LOG_CHANNEL = int(os.getenv("LOG_CHANNEL", ""))
@@ -31,5 +41,13 @@ class Config(object):
     AUTO_DELETE_TIME = int(os.getenv("AUTO_DELETE_TIME", 300))
     MDISK_API = os.getenv("MDISK_API", "12334")
     VERIFIED_TIME  = int(os.getenv("VERIFIED_TIME", "1"))
-    ABOUT_BOT_TEXT = os.getenv("ABOUT_TEXT")
-    ABOUT_HELP_TEXT = os.getenv("HELP_TEXT")
+    ABOUT_BOT_TEXT = """<b>This is Movie Search Bot.
+🤖 My Name: <a href='https://t.me/DoraemonPocket_bot'>Doraemon Pocket</a>
+📝 Language : <a href='https://www.python.org'> Python V3</a>
+📚 Library: <a href='https://docs.pyrogram.org'> Pyrogram</a>
+📡 Server: <a href='https://heroku.com'>Heroku</a>
+👨‍💻 Created By: <a href='https://t.me/aarthur_dayne'>Arthur Dayne</a></b>
+"""
+    ABOUT_HELP_TEXT = """<b>👨‍💻 Developer : <a href='https://t.me/aarthur_dayne'>Click Me</a>
+If You Want Your Own Bot Like This Then You Can Contact Our Developer.</b>
+"""
