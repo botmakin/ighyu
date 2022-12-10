@@ -19,17 +19,13 @@ class Config(object):
     BACKUP_CHANNEL = os.getenv("BACKUP_CHANNEL")
 #    GROUP_USERNAME = os.getenv("GROUP_USERNAME")
     START_MSG = """
-<b>Hey! {}😅,
-I'm Doraemon Pocket.🤖</a>
-I Can Search 🔍 What You Want❗
-<a>Made With ❤ By @movies_halt</a></b>
+<b>Hey! {} 👋🏻,
+I am here to provide unlimited movies to you all . \n\nJust Write the name of your desired movie and you will get it within few seconds. You can add me to your Groups too.</b>
 """
     START_PHOTO = os.getenv("START_PHOTO")
     HOME_TEXT = """
-<b>Hey! {}😅,
-I'm Doraemon Pocket.🤖</a>
-I Can Search 🔍 What You Want❗
-<a>Made With ❤ By @movies_halt</a></b>
+<b>Hey! {} 👋🏻,
+I am here to provide unlimited movies to you all . \n\nJust Write the name of your desired movie and you will get it within few seconds. You can add me to your Groups too.</b>
 """
     UPDATES_CHANNEL = os.getenv("UPDATES_CHANNEL", None)
     DATABASE_URL = os.getenv("DATABASE_URL", "")
@@ -41,13 +37,14 @@ I Can Search 🔍 What You Want❗
     AUTO_DELETE_TIME = int(os.getenv("AUTO_DELETE_TIME", 300))
     MDISK_API = os.getenv("MDISK_API", "12334")
     VERIFIED_TIME  = int(os.getenv("VERIFIED_TIME", "1"))
-    ABOUT_BOT_TEXT = """<b>This is Movie Search Bot.
-🤖 My Name: <a href='https://t.me/DoraemonPocket_bot'>Doraemon Pocket</a>
-📝 Language : <a href='https://www.python.org'> Python V3</a>
-📚 Library: <a href='https://docs.pyrogram.org'> Pyrogram</a>
-📡 Server: <a href='https://heroku.com'>Heroku</a>
-👨‍💻 Created By: <a href='https://t.me/aarthur_dayne'>Arthur Dayne</a></b>
-"""
+    ABOUT_BOT_TEXT = """<b>🤖 My Name : <a href=https://t.me/ShizukaMinamotobot><b>Shizuka Minamoto</b></a>\n
+👨‍💻 Developer : <a href=https://t.me/aarthur_dayne><b>Arthur Dayne</b></a>\n
+🧑‍💻 Co-Developer : <a href=https://t.me/astatine_085><b>Astatine 85</b></a>\n
+📝 Language : <a href='https://docs.pyrogram.org/'> Pyrogram</a>\n
+📚 Framework : <a href='https://www.python.org'> Python V3</a>\n
+📡 Hosted on : <a href='https://www.liquidweb.com'> Liquid Web</a>\n
+📢 Updates : <a href=https://t.me/movies_halt_update><b></b>Click Here</a>\n
+🌟 Version : <a href='https://www.google.com'> v 1.0</a>\n</b>"""
     ABOUT_HELP_TEXT = """<b>👨‍💻 Developer : <a href='https://t.me/aarthur_dayne'>Click Me</a>
 If You Want Your Own Bot Like This Then You Can Contact Our Developer.</b>
 """
