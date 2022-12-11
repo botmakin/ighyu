@@ -36,15 +36,14 @@ I am here to provide unlimited movies to you all . \n\nJust Write the name of yo
     FORCE_SUB = os.getenv("FORCE_SUB", "True")
     AUTO_DELETE_TIME = int(os.getenv("AUTO_DELETE_TIME", 300))
     MDISK_API = os.getenv("MDISK_API", "12334")
-    VERIFIED_TIME  = int(os.getenv("VERIFIED_TIME", "1"))
-    ABOUT_BOT_TEXT = os.getenv("ABOUT_TEXT", '''<b>🤖 My Name : <a href=https://t.me/ShizukaMinamotobot><b>Shizuka Minamoto</b></a>\n
+    VERIFIED_TIME  = int(os.getenv("VERIFIED_TIME", "365"))
+    ABOUT_BOT_TEXT = os.getenv("ABOUT_TEXT", "<b>🤖 My Name : <a href=https://t.me/ShizukaMinamotobot><b>Shizuka Minamoto</b></a>\n
 👨‍💻 Developer : <a href=https://t.me/aarthur_dayne><b>Arthur Dayne</b></a>\n
 🧑‍💻 Co-Developer : <a href=https://t.me/astatine_085><b>Astatine 85</b></a>\n
 📝 Language : <a href='https://docs.pyrogram.org/'> Pyrogram</a>\n
 📚 Framework : <a href='https://www.python.org'> Python V3</a>\n
 📡 Hosted on : <a href='https://www.liquidweb.com'> Liquid Web</a>\n
 📢 Updates : <a href=https://t.me/movies_halt_update><b></b>Click Here</a>\n
-🌟 Version : <a href='https://www.google.com'> v 1.0</a>\n</b>''')
-    ABOUT_HELP_TEXT = os.getenv("HELP_TEXT", '''<b>👨‍💻 Developer : <a href='https://t.me/aarthur_dayne'>Click Me</a>
-If You Want Your Own Bot Like This Then You Can Contact Our Developer.</b>
-''')
+🌟 Version : <a href='https://www.google.com'> v 1.0</a>\n</b>")
+    ABOUT_HELP_TEXT = os.getenv("HELP_TEXT", "<b>👨‍💻 Developer : <a href='https://t.me/aarthur_dayne'>Click Me</a>
+If You Want Your Own Bot Like This Then You Can Contact Our Developer.</b>")
