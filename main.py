@@ -134,9 +134,9 @@ async def message_handler(event):
         )
         message = f'**Click Here 👇🏻 For "{event.text}"**\n\n[🌹🎬 {str(event.text).upper()}\n🌹🎬 {str("Click Me For Results").upper()}]({tgraph_result})'
 
-        newbutton = [
-                InlineKeyboardButton('🎃 Join Updates Channel 🎃', url='https://t.me/movies_halt')
-            ]
+        reply_markup=InlineKeyboardMarkup([
+            InlineKeyboardButton('🎃 Join Updates Channel 🎃', url=f'http://t.me/movies_halt')
+            ])
         await txt.delete()
         result = await event.reply(message, link_preview=False)
         await asyncio.sleep(Config.AUTO_DELETE_TIME)
