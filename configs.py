@@ -1,5 +1,3 @@
-# (c) @RoyalKrrishna
-
 import os
 # from dotenv import load_dotenv
 
@@ -37,6 +35,5 @@ I am here to provide unlimited movies to you all . \n\nJust Write the name of yo
     AUTO_DELETE_TIME = int(os.getenv("AUTO_DELETE_TIME", 300))
     MDISK_API = os.getenv("MDISK_API", "12334")
     VERIFIED_TIME  = int(os.getenv("VERIFIED_TIME", "365"))
-    ABOUT_BOT_TEXT = os.getenv("ABOUT_TEXT", '''<b>Hey 👋🏻 I am Shizuka Minamoto and I am Here to Provide Movies and Series. Just Write Your Movie Name with correct Spellings</b>''')
-    ABOUT_HELP_TEXT = os.getenv("HELP_TEXT", '''<b>👨‍💻 Developer : <a href='https://t.me/movies_halt_owner_bot'>Click Me</a>
-If You are Facing any Difficulty in using this Bot Then Kindly Contact My Developer.</b>''')
+    ABOUT_BOT_TEXT = os.getenv("ABOUT_TEXT", '''I am Shizuka Minamoto and I can Provide You Any Movies or Series. Just Write Your Movie or Series Name Correctly.''')
+    ABOUT_HELP_TEXT = os.getenv("HELP_TEXT", '''<b>If You have any queries in using this Bot then Contact Bot Owner</b> <b><a href="https://t.me/movies_halt_owner_bot">Bot Owner</a></b>''')
